@@ -7,16 +7,17 @@
   <body>
     <script>
       function trees(num){
-        console.log('     /\\ ');
-        console.log('    /  \\ ');
-        console.log('   /    \\ ');
-        console.log('  /      \\ ');
-        console.log(' /        \\ ');
-        console.log('     ||   ');
-        console.log('     ||   ');
+        for(var i = num; i>= 1 ;i--){
+          console.log('     /\\ ');
+          console.log('    /  \\ ');
+          console.log('   /    \\ ');
+          console.log('  /      \\ ');
+          console.log(' /        \\ ');
+          console.log('     ||   ');
+          console.log('     ||   ');
+        }
       }
       var num = prompt('How many trees do you want?');
-      for(var i = num; i>= 1 ;i--)
       trees(num)
 
 
